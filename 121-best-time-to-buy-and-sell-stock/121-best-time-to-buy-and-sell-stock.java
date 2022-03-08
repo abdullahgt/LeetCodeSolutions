@@ -13,10 +13,9 @@ class Solution {
               }
             }
             if (((prices[i] - lowest) >= difference) && i > indexc) {
-                //if(prices[i] >= highest) {
+               
                     highest = prices[i];
                     difference = prices[i] - lowest;
-               // }
             }
         }
         if (difference < 0) {
