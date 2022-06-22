@@ -2,7 +2,6 @@ class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if haystack is None or needle is None:
             return -1
-        # Special case
         if haystack == needle:
             return 0
         # Length of the needle
